@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    color: #1a1a1a;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+.hero-section {
+    background-color: #ffffff;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.profile-img {
+    width: 170px;
+    height: 170px;
+    border-radius: 0; 
+    object-fit: cover; 
+}
+
+.name-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+    color: #1a1a1a;
+}
+
+.pronouns {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.role {
+    font-size: 1.1rem;
+    margin-bottom: 0.25rem;
+    color: #1a1a1a;
+}
+
+.location {
+    font-size: 0.95rem;
+    color: #666;
+    margin: 0;
+}
+
+.location i {
+    margin-right: 0.25rem;
+}
+
+.university-logo {
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-bottom: 2rem;
+}
+
+.university-name {
+    font-size: 0.90rem;
+    color: #666;
+    margin: 0;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+    text-decoration: none;
+    border-radius: 6px;
+    border: 1px solid #e5e5e5;
+    font-size: 0.9rem;
+    transition: all 0.2s ease;
+}
+
+.social-btn:hover {
+    background-color: #e5e5e5;
+    color: #1a1a1a;
+}
+
+.social-btn i {
+    font-size: 0.95rem;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem 0;
+}
+
+.content-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #e5e5e5;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-title i {
+    font-size: 1.1rem;
+}
+
+.card-body p {
+    color: #4a4a4a;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+}
+
+.card-body p:last-child {
+    margin-bottom: 0;
+}
+
+/* Experience Section */
+.experience-item {
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.experience-item:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-bottom: none;
+}
+
+.exp-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+}
+
+.exp-company {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 0;
+}
+
+.exp-date {
+    font-size: 0.85rem;
+    color: #666;
+    white-space: nowrap;
+}
+
+.expand-toggle {
+    background: none;
+    border: none;
+    color: #666;
+    font-size: 1.2rem;
+    padding: 0;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.expand-toggle:hover {
+    color: #1a1a1a;
+}
+
+.hobby-section {
+    margin-bottom: 1.5rem;
+}
+
+.hobby-section:last-child {
+    margin-bottom: 0;
+}
+
+.hobby-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.5rem;
+}
+
+.hobby-section p {
+    color: #4a4a4a;
+    line-height: 1.7;
+}
+
+.cert-item {
+    margin-bottom: 1rem;
+}
+
+.cert-item:last-child {
+    margin-bottom: 0;
+}
+
+.cert-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+}
+
+.cert-org {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+}
+
+.stack-heading {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-top: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.stack-heading:first-of-type {
+    margin-top: 0;
+}
+
+.tech-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-badge {
+    display: inline-block;
+    padding: 0.4rem 0.85rem;
+    background-color: #f5f5f5;
+    color: #1a1a1a;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    border: 1px solid #e5e5e5;
+}
+
+.project-item {
+    margin-bottom: 1rem;
+}
+
+.project-item:last-child {
+    margin-bottom: 0;
+}
+
+.project-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin-bottom: 0.25rem;
+}
+
+.project-desc {
+    font-size: 0.85rem;
+    color: #666;
+    margin: 0;
+    line-height: 1.6;
+}
+
+.view-all {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.view-all:hover {
+    color: #1a1a1a;
+}
+
+.footer {
+    background-color: #1a1a1a;
+    color: #ffffff;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 991px) {
+    .hero-section .row {
+        text-align: center;
+    }
+    
+    .profile-img {
+        margin: 0 auto 1rem;
+    }
+    
+    .university-logo {
+        margin: 1rem auto 0.5rem;
+    }
+    
+    .social-links {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 2rem 0;
+    }
+    
+    .name-title {
+        font-size: 1.75rem;
+    }
+    
+    .content-card {
+        padding: 1.25rem;
+    }
+    
+    .card-title {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .name-title {
+        font-size: 1.5rem;
+    }
+    
+    .social-btn {
+        font-size: 0.85rem;
+        padding: 0.45rem 0.85rem;
+    }
+    
+    .exp-date {
+        margin-top: 0.5rem;
+        display: block;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
